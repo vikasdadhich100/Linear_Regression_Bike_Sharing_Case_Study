@@ -31,14 +31,17 @@ Target Variable: cnt
 
 **Based on the provided results, here is a comprehensive conclusion:**
 - **Model Performance**
-Train dataset R^2 : 0.8195564314872248
-Test dataset R^2 : 0.7919791167382211
-These R-squared values indicate that the model explains approximately 81.96% of the variance in the target variable on the training set and 79.20% on the test set. This demonstrates that the model generalizes well and performs consistently across both the training and test datasets.
+   - Train dataset R^2 : 0.8195564314872248
+   - Test dataset R^2 : 0.7919791167382211
+
+     These R-squared values indicate that the model explains approximately 81.96% of the variance in the target variable on the training set and 79.20% on the test set. This demonstrates that the model generalizes well and performs consistently across both the training and test datasets.
 
 - **Regression Equation**
 The regression equation for predicting the target variable
 
-**cnt(y)=0.1850+yrX(0.2306)+tempX(0.4885)+season_SpringX(-0.1188)+season_WinterX(0.0582)+mnth_JulX(-0.0715)+mnth_SepX(0.0542)+weathersit_Light_Snow_RainX(-0.3016)+weathersit_Mist_CloudyX(-0.0747)**
+
+
+  **cnt(y)=0.1850+yrX(0.2306)+tempX(0.4885)+season_SpringX(-0.1188)+season_WinterX(0.0582)+mnth_JulX(-0.0715)+mnth_SepX(0.0542)+weathersit_Light_Snow_RainX(-0.3016)+weathersit_Mist_CloudyX(-0.0747)**
 
 - **Interpretation of Coefficients**
   - yr (0.2306): Indicates a positive impact on the target variable. As the year progresses, the target variable tends to increase.
